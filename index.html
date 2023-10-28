@@ -12,11 +12,47 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/normalize.css">
     <title>Project</title>
+    <style>
+        p{
+            border: 2px solid black;
+            padding: 10px;
+            background-color: none;
+            position: relative;
+            text-align: justify;
+        }
+        p::before{
+            content: " ";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 0%;
+            background: #3498db;
+            z-index: -1;
+            transition: 1s;
+        }
+        p:hover::before{
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Hello World</h1>
     <p>23</p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iusto,
+        nobis eum repellendus quo distinctio iure ea blanditiis explicabo autem
+        corporis vero recusandae, non fugit alias obcaecati est in ipsam, dicta
+        facilis eius ullam. Dignissimos voluptas nemo consequuntur ullam,
+        aspernatur, ea natus molestiae excepturi autem expedita quisquam
+        asperiores sapiente sint id temporibus? Labore ad explicabo sit
+        perferendis ipsum fugiat libero harum temporibus? Tempora harum itaque
+        commodi ipsum suscipit hic doloremque.
+      </p>
+
 </body>
+
 
 </html>
