@@ -1,0 +1,56 @@
+.header {
+  margin-top: 46px;
+  padding-bottom: 91px;
+}
+.header__logo {
+  transition: all ease 0.3s;
+}
+.header__logo:hover {
+  transform: scale(1.1);
+}
+.header__right ul {
+  gap: 45px;
+}
+.header__right a {
+  color: black;
+  opacity: 0.8;
+  padding: 10px;
+}
+.header__right a:hover {
+  color: #4a99d3;
+}
+.hero__title {
+  color: #260041;
+  font-family: "Noto Serif Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+.hero__title span {
+  color: #d81b60;
+}
+.hero__subtitle {
+  color: #260041;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  padding-bottom: 60px;
+}
+.hero__right {
+    padding-bottom: 60px;
+  }
+.hero__btn {
+  width: 180px;
+  height: 60px;
+  border-radius: 5px;
+  background: #4a99d3;
+  border: none;
+  margin-right: 20px;
+  transition: all ease 0.3s;
+}
+.hero__btn:hover {
+  background: orangered;
+  transform: scale(1.1);
+}
